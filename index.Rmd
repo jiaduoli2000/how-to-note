@@ -1,0 +1,42 @@
+--- 
+title: "读书--How to Take Smart Notes"
+author: "Sönke Ahrens, 翻译:阿狸的Blog"
+date: "`r Sys.Date()`"
+documentclass: ctexbook
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+colorlinks: yes
+lot: yes
+lof: yes
+geometry: [b5paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=3.5cm, rmargin=2.5cm]
+site: bookdown::bookdown_site
+description: "如何记笔记更明智"
+github-repo: yihui/bookdown-chinese
+#cover-image: images/cover.jpg
+---
+
+```{r setup, include=FALSE}
+options(
+  htmltools.dir.version = FALSE, formatR.indent = 2, width = 55, digits = 4
+)
+
+# 填上你需要用到的包，如 c('ggplot2', 'dplyr')
+lapply(c(), function(pkg) {
+  if (system.file(package = pkg) == '') install.packages(pkg)
+})
+```
+
+# 版权 {-}
+
+版权归原作者所有，翻译目的为学习阅读，如有侵权可联系翻译者删除
+
+Copyright © 2017 Sönke Ahrens  
+版权所有。takesmartnotes.com
+
+Edited by Kathy Drouin-Keith  
+Cover Design by Oliver Ferreira
+
+“Notes on paper, or on a computer screen \[...\] do not make contemporary physics or other  kinds of intellectual endeavor easier, they make it possible ... no matter how internal  processes are implemented \[...you..\] need to understand the extent to which the mind is reliant upon external scaffolding.” (Levy 2011, 270)
+
+“One cannot think without writing.” (Luhmann 1992, 53)
